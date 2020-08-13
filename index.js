@@ -20,7 +20,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Please enter usage instructions for this application",
+    message: "Please enter instructions for using this application",
     name: "usage",
   },
   {
@@ -30,8 +30,18 @@ const questions = [
   },
   {
     type: "input",
-    message: "Are there any tests for this application?",
+    message: "Please enter any necessary tests for this application",
     name: "tests",
+  },
+  {
+    type: "input",
+    message: "Please enter any known issues with the application",
+    name: "issues",
+  },
+  {
+    type: "input",
+    message: "Please enter any plans for future development",
+    name: "development",
   },
   {
     type: "list",
@@ -138,6 +148,10 @@ function init() {
 
 [Tests](##tests)
 
+[Known Bugs](##known-bugs)
+
+[Future Development](##future-development)
+
 [Questions](##questions)
 
 ## Installation
@@ -163,6 +177,14 @@ ${chosenLicense}
 ## Tests
 
   * ${data.tests}
+
+## Known Bugs
+
+  * ${data.issues}
+
+## Future Development
+
+  * ${data.development}
 
 ## Questions
 

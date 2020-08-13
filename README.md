@@ -6,7 +6,7 @@
 
 ## Description
 
-- Readme Generator is a concise command line application for creating a professional readme file for open source projects. What you are currently reading was created using Readme Generator.
+- Readme Generator is a concise command line application for creating a professional readme for open source projects. What you're currently reading was created using Readme Generator!
 
 ## Table of Contents
 
@@ -20,13 +20,17 @@
 
 [Tests](##tests)
 
+[Known Bugs](##known-bugs)
+
+[Future Development](##future-development)
+
 [Questions](##questions)
 
 ## Installation
 
 - ### How to install Readme Generator
 
-  - There is no installation necessary!
+  - Readme Generator doesn't require any additional installation outside of node.js
 
 ## Usage
 
@@ -44,11 +48,19 @@ Copyright 2020 Thomas Fitzpatrick
 
 - ### Contributing to Readme Generator
 
-  - As long as you credit me, please feel free to use or modify this software however you wish to fit your needs.
+  - Currently there are no guidelines for this project, check back later!
 
 ## Tests
 
-- No tests are necessary as the program is lightweight and requires few dependencies.
+- There are no required tests for Readme Generator, as it is lightweight and requires few dependencies
+
+## Known Bugs
+
+- No known bugs... for now!
+
+## Future Development
+
+- I would like to streamline the user input to allow for skipping of parts not relevant to a particular project, as well as ways to add images or additional media
 
 ## Questions
 
