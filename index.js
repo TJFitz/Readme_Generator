@@ -45,7 +45,7 @@ const questions = [
   },
   {
     type: "list",
-    message: "Please chose a license for this project",
+    message: "Please choose a license for this project",
     name: "license",
     choices: ["Creative Commons", "MIT", "ISC"],
   },
