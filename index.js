@@ -198,7 +198,13 @@ ${chosenLicense}
 
     // End of readme template literal
 
-    fs.writeFile("README.md", readme, (err) => {
+    fs.mkdir(`./${data.title}`, { recursive: true }, (err) => {
+      if (err) {
+        throw err;
+      }
+    });
+
+    fs.writeFile(`./${data.title}/README.md`, readme, (err) => {
       if (err) {
         throw err;
       }
