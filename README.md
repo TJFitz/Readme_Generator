@@ -10,21 +10,21 @@
 
 ## Table of Contents
 
-[Installation](##-installation)
+[Installation](#installation)
 
-[Usage](##-usage)
+[Usage](#usage)
 
-[License](##-license)
+[License](#license)
 
-[Contributing](##-contributing)
+[Contributing](#contributing)
 
-[Tests](##-tests)
+[Tests](#tests)
 
-[Known Bugs](##-known-bugs)
+[Known Bugs](#known-bugs)
 
-[Future Development](##-future-development)
+[Future Development](#future-development)
 
-[Questions](##-questions)
+[Questions](#questions)
 
 ## Installation
 
